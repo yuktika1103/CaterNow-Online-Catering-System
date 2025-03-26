@@ -1,0 +1,176 @@
+.catering-details {
+    display: flex;
+    flex-direction: column;
+    /* Stack image+details and packages vertically */
+    align-items: center;
+    /* Center content horizontally */
+    gap: 20px;
+    /* Space between sections */
+
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Container for image and details */
+.image-and-details {
+    display: flex;
+    flex-direction: row;
+    /* Keep image and details side by side */
+    align-items: flex-start;
+    /* Align items to the top */
+    gap: 30px;
+    /* Space between image and details */
+    width: 100%;
+    /* Full width */
+}
+
+/* Left Side Image */
+.caterer-image {
+    width: 45%;
+    max-width: 450px;
+    border-radius: 10px;
+}
+
+/* Right Side: Details */
+.details-container {
+    width: 55%;
+    padding: 10px;
+}
+
+/* Caterer Name */
+.details-container h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #ff6600;
+}
+
+/* Rating and Location */
+.rating {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff9f00;
+}
+
+.location {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Description */
+.description {
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+}
+
+/* Packages Section */
+.packages-section {
+    width: 100%;
+    /* Full width */
+
+}
+
+.packages-section h1 {
+    text-align: center;
+    color: #ff6600;
+}
+
+.packages {
+    display: flex;
+    flex-direction: row;
+    /* Horizontal layout for packages */
+    gap: 15px;
+    /* Space between package cards */
+    margin-top: 15px;
+    justify-content: center;
+    /* Center package cards */
+    flex-wrap: wrap;
+    /* Wrap cards to the next line if they overflow */
+}
+
+.package {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    min-width: 250px;
+    /* Minimum width for each package card */
+    flex: 1 1 250px;
+    /* Allow cards to grow and shrink */
+    text-align: center;
+    /* Center text inside cards */
+    font-size: 20px;
+}
+
+/* Book Now Button */
+.book-now-btn {
+    background-color: #ff6600;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.book-now-btn:hover {
+    background-color: #ff6600;
+}
+
+/* Offers Section */
+.offers-section {
+    width: 100%;
+    /* Full width */
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f3f3f3;
+    font-size: 20px;
+}
+
+.offer {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .image-and-details {
+        flex-direction: column;
+        /* Stack image and details vertically on small screens */
+        align-items: center;
+        /* Center items */
+    }
+
+    .caterer-image {
+        width: 100%;
+        /* Full width for image on small screens */
+        max-width: 100%;
+    }
+
+    .details-container {
+        width: 100%;
+        /* Full width for details on small screens */
+        text-align: center;
+        /* Center text */
+    }
+
+    .packages {
+        flex-direction: column;
+        /* Stack packages vertically on small screens */
+    }
+
+    .package {
+        min-width: 100%;
+        /* Full width for packages on small screens */
+    }
+}

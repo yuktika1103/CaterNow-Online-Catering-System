@@ -1,0 +1,102 @@
+.billing-information-container {
+    padding: 50px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caterer-image {
+    width: 100%;
+    max-width: 500px;
+    /* Adjust width as needed */
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.billing-info-section {
+    flex: 2;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.billing-info-section h1 {
+    margin-bottom: 20px;
+    color: #ff6600;
+    font-size: 30px;
+}
+
+.details-section,
+.addons-section,
+.form-section {
+    margin-bottom: 20px;
+}
+
+.details-section h2,
+.addons-section h3,
+.form-section h3 {
+    color: #ff6600;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.addons-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.addons-section li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #333;
+}
+
+.form-section label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+
+.form-section input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.payment-btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.payment-btn:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,40 @@
+/* Horizontal Caterers List */
+.caterers-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.contact-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #333;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover {
+    background-color: #e6b800;
+}

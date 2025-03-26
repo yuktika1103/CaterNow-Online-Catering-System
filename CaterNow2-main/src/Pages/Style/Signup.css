@@ -1,0 +1,105 @@
+/* Container for centering the signup form */
+.signup-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+}
+
+/* Signup form box (Decreased height) */
+.signup-box {
+    background-color: white;
+    padding: 1.5rem;
+    /* Reduced padding */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    /* Kept the same width */
+}
+
+/* Heading */
+.signup-box h2 {
+    text-align: center;
+    color: #333;
+    font-size: 1.5rem;
+    /* Slightly reduced font size */
+    margin-bottom: 1rem;
+    /* Reduced margin */
+}
+
+/* Form group styling */
+.signup-form-group,
+.form-group {
+    margin-bottom: 0.6rem;
+    /* Reduced margin to make the form compact */
+}
+
+/* Labels */
+.signup-box label {
+    display: block;
+    margin-bottom: 0.3rem;
+    /* Reduced margin */
+    color: #555;
+    font-size: 0.9rem;
+    /* Slightly reduced font size */
+}
+
+/* Input fields */
+.signup-box input {
+    width: 95%;
+    padding: 0.6rem;
+    /* Reduced padding */
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 0.9rem;
+}
+
+/* Input focus effect */
+.signup-box input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+/* Signup button */
+.signup-box button {
+    width: 100%;
+    padding: 0.7rem;
+    /* Slightly reduced padding */
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    margin-top: 0.8rem;
+    /* Reduced margin */
+}
+
+/* Hover effect on button */
+.signup-box button:hover {
+    background-color: #e5533d;
+}
+
+/* Login link section */
+.signup-box .login-link {
+    text-align: center;
+    margin-top: 0.6rem;
+    /* Reduced margin */
+    color: #666;
+    font-size: 0.85rem;
+}
+
+/* Login link styling */
+.signup-box .login-link a {
+    color: #ff6347;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hover effect for login link */
+.signup-box .login-link a:hover {
+    text-decoration: underline;
+}

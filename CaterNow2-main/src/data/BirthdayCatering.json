@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "name": "JMB Catering",
+        "rating": 5,
+        "location": "Indore, Madhya Pradesh",
+        "image": "../img1.jpg",
+        "description": "Exquisite wedding catering with customizable menus.",
+        "packages": [
+            {
+                "name": "Basic Package",
+                "price": "₹999",
+                "details": "Includes 3 dishes + drinks."
+            },
+            {
+                "name": "Standard Package",
+                "price": "₹1999",
+                "details": "Includes 5 dishes + drinks + dessert."
+            },
+            {
+                "name": "Premium Package",
+                "price": "₹3999",
+                "details": "Includes 8 dishes + drinks + dessert + live counter."
+            }
+        ],
+        "offers": [
+            "10% discount available on select bank credit cards.",
+            "Get ₹2,000 discount on select bank offers.",
+            "GST invoice available for business purchases."
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Riddhi Siddhi",
+        "rating": 4.5,
+        "location": "Indore, Madhya Pradesh",
+        "image": "../img2.jpg",
+        "description": "Luxurious catering with a culinary Tradition.",
+        "packages": [
+            {
+                "name": "Basic Package",
+                "price": "₹999",
+                "details": "Includes 3 dishes + drinks."
+            },
+            {
+                "name": "Standard Package",
+                "price": "₹1999",
+                "details": "Includes 5 dishes + drinks + dessert."
+            },
+            {
+                "name": "Premium Package",
+                "price": "₹3999",
+                "details": "Includes 8 dishes + drinks + dessert + live counter."
+            }
+        ],
+        "offers": [
+            "10% discount available on select bank credit cards.",
+            "Get ₹2,000 discount on select bank offers.",
+            "GST invoice available for business purchases."
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Sayaji Hotel Catering",
+        "rating": 4.7,
+        "location": "Indore, Madhya Pradesh",
+        "image": "../img3.jpg",
+        "description": "Affordable and delicious catering.",
+        "packages": [
+            {
+                "name": "Basic Package",
+                "price": "₹999",
+                "details": "Includes 3 dishes + drinks."
+            },
+            {
+                "name": "Standard Package",
+                "price": "₹1999",
+                "details": "Includes 5 dishes + drinks + dessert."
+            },
+            {
+                "name": "Premium Package",
+                "price": "₹3999",
+                "details": "Includes 8 dishes + drinks + dessert + live counter."
+            }
+        ],
+        "offers": [
+            "10% discount available on select bank credit cards.",
+            "Get ₹2,000 discount on select bank offers.",
+            "GST invoice available for business purchases."
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Sheraton Catering",
+        "rating": 4.9,
+        "location": "Indore, Madhya Pradesh",
+        "image": "../img4.jpg",
+        "description": "Affordable, Luxurious and delicious catering.",
+        "packages": [
+            {
+                "name": "Basic Package",
+                "price": "₹999",
+                "details": "Includes 3 dishes + drinks."
+            },
+            {
+                "name": "Standard Package",
+                "price": "₹1999",
+                "details": "Includes 5 dishes + drinks + dessert."
+            },
+            {
+                "name": "Premium Package",
+                "price": "₹3999",
+                "details": "Includes 8 dishes + drinks + dessert + live counter."
+            }
+        ],
+        "offers": [
+            "10% discount available on select bank credit cards.",
+            "Get ₹2,000 discount on select bank offers.",
+            "GST invoice available for business purchases."
+        ]
+    }
+]
